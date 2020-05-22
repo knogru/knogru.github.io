@@ -1,0 +1,49 @@
+@import "colors";
+@import "hovers";
+@import "utils";
+
+nav {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 55px 0;
+  @include container;
+  .logo {
+    display: inline-block;
+    font-size: 0px;
+    a {
+      text-decoration: none;
+      color: $very-dark-violet;
+    }
+  }
+  ul {
+    list-style: none;
+    display: inline-block;
+    vertical-align: 12px;
+    margin-left: 40px;
+    li {
+      display: inline-block;
+      margin: 0 15px;
+      a {
+        text-decoration: none;
+        color: $grayish-violet;
+        @include hover-link;
+      }
+    }
+  }
+  .toRight {
+    float: right;
+    a {
+      text-decoration: none;
+      color: $grayish-violet;
+      margin: 0 20px;
+      @include hover-link;
+    }
+    .signup {
+      padding: 10px 25px;
+      border-radius: 50px;
+      background-color: $cyan;
+      color: $white;
+      @include hover-pill;
+    }
+  }
+}

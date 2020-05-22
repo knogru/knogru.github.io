@@ -1,0 +1,29 @@
+@import "utils";
+
+.shortenIt {
+  max-width: 100%;
+  background: $dark-violet url("../images/bg-shorten-desktop.svg");
+  border-radius: 10px;
+  padding: 55px;
+  position: relative;
+  top: -70px;
+
+  input {
+    height: 55px;
+    border-radius: 8px;
+    width: 80%;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  button {
+    background-color: $cyan;
+    color: $white;
+    font-size: 18px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-weight: 900;
+    margin-left: 20px;
+    @include hover-pill;
+  }
+}

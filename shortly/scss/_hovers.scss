@@ -1,0 +1,13 @@
+@import "colors";
+
+@mixin hover-link {
+  &:hover {
+    color: $very-dark-violet;
+  }
+}
+@mixin hover-pill {
+  &:hover {
+    background-color: $light-cyan;
+    color: $white;
+  }
+}

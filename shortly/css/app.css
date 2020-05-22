@@ -1,0 +1,202 @@
+nav {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 55px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+nav .logo {
+  display: inline-block;
+  font-size: 0px;
+}
+nav .logo a {
+  text-decoration: none;
+  color: #232127;
+}
+nav ul {
+  list-style: none;
+  display: inline-block;
+  vertical-align: 12px;
+  margin-left: 40px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #9e9aa7;
+}
+nav ul li a:hover {
+  color: #232127;
+}
+nav .toRight {
+  float: right;
+}
+nav .toRight a {
+  text-decoration: none;
+  color: #9e9aa7;
+  margin: 0 20px;
+}
+nav .toRight a:hover {
+  color: #232127;
+}
+nav .toRight .signup {
+  padding: 10px 25px;
+  border-radius: 50px;
+  background-color: #2acfcf;
+  color: white;
+}
+nav .toRight .signup:hover {
+  background-color: #7ce4e4;
+  color: white;
+}
+
+.mainSection {
+  display: flex;
+  padding-top: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+.mainSection div:last-child {
+  flex: none;
+  margin-right: -20%;
+}
+.mainSection h1 {
+  font-size: 80px;
+  color: #35323e;
+  line-height: 90px;
+  margin-top: 75px;
+  font-weight: 900;
+  letter-spacing: -3px;
+}
+.mainSection p {
+  color: #9e9aa7;
+  width: 90%;
+  font-weight: 500;
+  font-size: 22px;
+}
+.mainSection button {
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  background-color: #2acfcf;
+  padding: 15px 45px;
+  border-radius: 50px;
+  margin-top: 35px;
+}
+.mainSection button:hover {
+  background-color: #7ce4e4;
+  color: white;
+}
+.mainSection .pushRight {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.shortenIt {
+  max-width: 100%;
+  background: #3b3054 url("../images/bg-shorten-desktop.svg");
+  border-radius: 10px;
+  padding: 55px;
+  position: relative;
+  top: -70px;
+}
+.shortenIt input {
+  height: 55px;
+  border-radius: 8px;
+  width: 80%;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.shortenIt button {
+  background-color: #2acfcf;
+  color: white;
+  font-size: 18px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-weight: 900;
+  margin-left: 20px;
+}
+.shortenIt button:hover {
+  background-color: #7ce4e4;
+  color: white;
+}
+
+.statisticsSection {
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-top: 130px;
+}
+.statisticsSection > div {
+  width: 80%;
+  margin: 0 auto;
+}
+.statisticsSection .centered {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.statisticsSection .centered h3 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #35323e;
+}
+.statisticsSection .centered p {
+  color: #9e9aa7;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.statisticsSection .cards {
+  display: flex;
+  height: 400px;
+  margin-top: 75px;
+}
+.statisticsSection .cards .card {
+  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 75px 35px 25px 25px;
+}
+.statisticsSection .cards .card .cardIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #3b3054;
+  margin-top: -115px;
+  margin-bottom: 30px;
+}
+.statisticsSection .cards .card .cardIcon img {
+  align-self: center;
+}
+.statisticsSection .cards .card h5 {
+  font-size: 22px;
+  color: #35323e;
+}
+.statisticsSection .cards .card p {
+  color: #bfbfbf;
+  margin-top: 20px;
+}
+.statisticsSection .cards .card:first-child {
+  align-self: flex-start;
+}
+.statisticsSection .cards .card:nth-child(2) {
+  align-self: center;
+}
+.statisticsSection .cards .card:last-child {
+  align-self: flex-end;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#app {
+  overflow: hidden;
+}

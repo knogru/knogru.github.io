@@ -1,0 +1,83 @@
+@import "colors";
+@import "utils";
+@import "shorten";
+
+.statisticsSection {
+  width: 100%;
+  background-color: $light-gray;
+  margin-top: 130px;
+
+  >div {
+    @include container;
+  }
+
+  .centered {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+    h3 {
+      font-size: 40px;
+      font-weight: 900;
+      color: $very-dark-blue;
+    }
+
+    p {
+      color: $grayish-violet;
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    height: 400px;
+    margin-top: 75px;
+
+    .card {
+      margin: 15px;
+      background-color: $white;
+      border-radius: 10px;
+      padding: 75px 35px 25px 25px;
+
+      .cardIcon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background-color: $dark-violet;
+        margin-top: -115px;
+        margin-bottom: 30px;
+
+        img {
+          align-self: center;
+        }
+      }
+
+      h5 {
+        font-size: 22px;
+        color: $very-dark-blue;
+      }
+
+      p {
+        color: $gray;
+        margin-top: 20px;
+      }
+    }
+
+    .card:first-child {
+      align-self: flex-start;
+    }
+
+    .card:nth-child(2) {
+      align-self: center;
+    }
+
+    .card:last-child {
+      align-self: flex-end;
+    }
+  }
+
+}

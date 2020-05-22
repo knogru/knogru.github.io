@@ -1,0 +1,41 @@
+@import "colors";
+@import "hovers";
+@import "utils";
+
+.mainSection {
+  display: flex;
+  padding-top: 15px;
+  @include container;
+  div:last-child {
+    flex: none;
+    margin-right: -20%;
+  }
+  h1 {
+    font-size: 80px;
+    color: $very-dark-blue;
+    line-height: 90px;
+    margin-top: 75px;
+    font-weight: 900;
+    letter-spacing: -3px;
+  }
+  p {
+    color: $grayish-violet;
+    width: 90%;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  button {
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    background-color: #2acfcf;
+    padding: 15px 45px;
+    border-radius: 50px;
+    margin-top: 35px;
+    @include hover_pill;
+  }
+  .pushRight {
+    display: inline-block;
+    max-width: 100%;
+  }
+}
