@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+/* 
+  for flowing text
+  100, 400
+  font-family: 'Catamaran', sans-serif;
+
+  for titles and stuff
+  300, 400
+  font-family: 'Ubuntu', sans-serif;
+*/
+/* begin */
+body {
+  background-color: #242423;
+  color: #e8eddf;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+header .divider {
+  width: 10%;
+  height: 5px;
+  display: inline-block;
+  background-color: #333533;
+}
+
+header .top-icon {
+  font-size: 4em;
+  margin: 20px 0;
+  color: #fff116;
+}
+
+header h1 {
+  font-size: 4em;
+  color: #ffe700;
+}
+
+header h4 {
+  font-size: 2em;
+  color: #cfdbd5;
+  margin-top: 10px;
+}
